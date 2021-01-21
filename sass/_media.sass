@@ -1,0 +1,132 @@
+@media screen and (min-width: 796px)
+    .hamburger
+        display: none
+
+@media screen and ( max-width: 998px )
+    .header
+        height: 665px
+        background-attachment: fixed
+    .navbar
+        padding: 20px
+    .content
+        width: 75%
+    .flex-container
+        flex-direction: column
+        padding: 100px 20px 20px 20px
+        height: auto
+    .flex-item
+        &:nth-of-type(1)   
+            align-self: center
+            margin-bottom: 50px
+        &:nth-of-type(2)   
+            align-self: center
+        &:nth-of-type(3)   
+            align-self: center
+    .container
+        padding: 100px 40px 20px 40px
+        flex-direction: column
+        height: auto
+    .left-block
+        margin-bottom: 30px        
+    .medium-title
+        text-align: left
+        line-height: 30px
+        padding: 0 0 30px 0
+    .list-item
+        padding: 10px 55px 10px 50px
+        &:hover
+            height: 250px
+            &::before
+                display: none
+    .app-container
+        flex-direction: column
+        padding: 100px 40px 50px 40px
+        .img-block
+            width: 100%
+            margin-bottom: 30px
+        .text-block
+            width: 100%
+            .buttons-group
+                margin-left: auto
+                margin-right: auto
+                width: 66%
+        .btn-store
+            &:nth-of-type(1)
+                margin-bottom: 30px
+    .btn-app
+        padding: 30px 40px 30px 40px  
+    .info-container
+        padding: 100px 40px 50px 40px
+    .links-container
+        width: 85%          
+
+@media screen and ( max-width: 768px )
+    .visible-mobile
+        width: 100%
+        flex-grow: 0
+        align-items: center
+    .menu
+        display: none
+    .navbar.is-open
+        height: 100vh
+        align-items: start
+        justify-content: start
+        flex-direction: column
+        background-color: rgb(0, 0, 0)
+        .menu
+            display: flex
+            flex-direction: column
+            align-self: center
+            flex-grow: 0.5
+            text-align: center
+    .content
+        width: 80%
+    .heading
+        font-size: 30px
+        line-height: 40px
+    .medium-title
+        font-size: 20px
+    .left-block
+        width: 100%
+    .right-block
+        width: 100% 
+    .img-block
+        width: 100%
+    .text-block
+        width: 100%
+        margin-bottom: 50px
+        padding-left: 10px
+    .form-input
+        width: 300px
+        margin-right: 0
+        margin-bottom: 15px
+    .footer
+        flex-direction: column
+        justify-content: space-around
+        height: 150px
+    .copyright
+        text-align: center
+
+@media screen and ( max-width: 576px )
+    .content
+        width: 95%
+        height: 100%
+    .heading
+        line-height: 40px 
+    .buttons-group
+        flex-direction: column 
+        width: auto
+    .btn-download
+        margin-bottom: 20px
+        background-color: #ffffff
+        color:#233148
+    .btn-contact
+        background-color: #ffffff
+        color:#233148
+    .info-container
+        padding: 100px 15px 50px 15px
+    .links-container
+        flex-direction: column    
+    .links-group
+        &:last-child
+            margin-bottom: 30px
